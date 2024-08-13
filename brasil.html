@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platillos Típicos de Brasil y México</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header con buscador -->
+    <header class="bg-warning text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1>Platillos Típicos de Brasil</h1>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Sección de platillos -->
+    <div class="container my-5">
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/4108a45f-7b80-400b-b795-2bc77d20a6df/Derivates/bbc6d778-71d8-46d9-9565-1d0f5ea3e6d4.jpg" class="card-img-top" alt="Feijoada">
+                    <div class="card-body">
+                        <h5 class="card-title">Feijoada</h5>
+                        <p class="card-text">Un guiso de frijoles negros con carne, tradicional de Brasil.</p>
+                    </div>
+                 
+                    <button type="button" class="btn btn-primary">Primary</button>
+                </div>
+            </div>
+            <div class="col-md-4" >
+                <div class="card">
+                    <img src="https://blog.amigofoods.com/wp-content/uploads/2019/09/brazilian-chicken-croquettes.jpg" class="card-img-top" alt="Coxinha">
+                    <div class="card-body">
+                        <h5 class="card-title">Coxinha</h5>
+                        <p class="card-text">Una croqueta rellena de pollo desmenuzado, muy popular en Brasil.</p>
+                    </div>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/38/cb/48/38cb486b317383fa8c2e7307ff38f8d4.jpg" class="card-img-top" alt="Brigadeiro">
+                    <div class="card-body">
+                        <h5 class="card-title">Brigadeiro</h5>
+                        <p class="card-text">Dulce típico hecho de leche condensada, cacao y mantequilla.</p>
+                    </div>
+                    
+                    <button type="button" class="btn btn-success">Success</button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Sección de imágenes -->
+    <div class="container my-5">
+        <h2 class="mb-4">Galería de Imágenes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREf63fUu6BXSvOw5tN3BwRvh2tZRsUgoNEIA&s" class="img-fluid" alt="Imagen 1"width="300px"; height="300px">
+            </div>
+            <div class="col-md-4">
+                <img src="https://animalgourmet.com/wp-content/uploads/2020/06/comida-de-brasil-brasile%C3%B1a-2-scaled-e1593496248754.jpg" class="img-fluid" alt="Imagen 2"width="300px"; height="400px">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJtw6IVL6vRIEMqFNjWywyGSb7P7_BobIkOg&s" class="img-fluid" alt="Imagen 3" width="300px"; height="300px">
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de opiniones de los clientes -->
+    <div class="container my-5">
+        <h2 class="mb-4">Opiniones de los Clientes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">"Los platillos son exquisitos y auténticos. Definitivamente volveré."</p>
+                        <p class="text-end">- Juan Pérez</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">"Una experiencia culinaria increíble. Altamente recomendable."</p>
+                        <p class="text-end">- María López</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">"Los sabores me transportaron directamente a Brasil y México. ¡Delicioso!"</p>
+                        <p class="text-end">- Carlos Méndez</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-warning text-dark text-center p-3">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="#" class="text-white me-2"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+        <p class="mt-0 mb-0">&copy; 2024 Platillos Típicos. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
