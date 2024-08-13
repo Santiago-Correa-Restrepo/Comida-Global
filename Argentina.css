@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://cdn.pixabay.com/photo/2020/06/28/22/09/argentina-flag-5350831_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); 
+    margin-bottom: 20px;
+}
+header h1, header h2 {
+    margin: 0;
+}
+header h1 {
+    font-size: 2.5em;
+}
+header h2 {
+    font-size: 1.5em;
+}
+main {
+    padding: 20px;
+}
+.recipe {
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+.recipe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.recipe h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+.recipe p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+.recipe a button {
+    background: #0084ff;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+button:hover {
+    background-color: #00aaff;
+    transform: scale(1.05);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
