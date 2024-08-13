@@ -1,0 +1,33 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f6f895;
+    color: #0e0d0d;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background-color: #FFD700;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    color: #6996f7;
+    margin: 0;
+}
+.comida {
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFD700;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
